@@ -26,10 +26,10 @@ events = [
 
 def parse_data(chars, events):
     chars = dict(enumerate(chars))
-    deaths= {}
+    progress= {}
 
     def living_len():
-        return len(chars) - len(deaths)
+        return len(chars) - len(progress)
 
     def position(char, event):
         for i, group in enumerate(event):
@@ -43,17 +43,17 @@ def parse_data(chars, events):
     for event in events:
         if isinstance(event[0], list):
             event.sort(key=len)
-            for char in [c for c in chars if c not in deaths]:
+            for char in [c for c in chars if c not in progress]:
                 timelines[char] += [position(char, event)]
             t += 1
         else:
-            for char in set(event) - set(deaths):
-                deaths[char] = (t-1, timelines[char][-1])
+            for char in set(event) - set(progress):
+                progress[char] = (t-1, timelines[char][-1])
 
-    return chars, timelines, deaths
+    return chars, timelines, progress
 
 
-def plot_data(chars, timelines, deaths):
+def plot_data(chars, timelines, progress):
     import numpy as np
     from scipy.interpolate import interp1d
     from matplotlib import cm, pyplot as plt
@@ -77,8 +77,8 @@ def plot_data(chars, timelines, deaths):
         x = np.linspace(0, len(y)-1, len(y)*10)
         ax.plot(x, f(x), c=color(char_id))
 
-    x, y = zip(*deaths.values())
-    for char_id, xy in deaths.items():
+    x, y = zip(*progress.values())
+    for char_id, xy in progress.items():
         circle = plt.Circle(xy, color=color(char_id), zorder=100, radius=0.03)
         ax.add_artist(circle)
     ax.legend(list(map(chars.get, sorted(chars))), loc='best', ncol=6)

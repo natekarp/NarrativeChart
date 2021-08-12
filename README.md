@@ -46,7 +46,7 @@ In the first line at the very top, all fourteen design teams are together with o
 
 In this narrative chart, the quantity doesn't matter, as we want to show the stochastic nature of how the different groups of design teams close the outstanding RFIs. The fourteen lines follow a similar pattern as with the Second Law of Thermodynamics, which says, in simple terms, entropy always increases. In other words, a system becomes more and more random over time, and doesn't get simpler. The same can be applied to Randall Munroe's xkcd strips, and the storyline of the Lord of the Rings. This was to much amusement of my colleagues, many of whom were J. R. R. Tolkien fans. It was an added bonus, to bring much needed cohesion to a much needed project, and avoided the teams from having to look at yet another bland excel template.  
 
-At the end of a period of twelve weeks, ten design teams had successfully closed their RFIs, denoted on the chart by a large full stop on the respective line. A 75% success rate. Three teams still hadn't completed their task, and this was escalated to internal upper management, who dealt with the matter. 
+At the end of a period of twelve weeks, ten design teams had successfully closed their RFIs, denoted on the chart by a large full stop on the respective line. A success rate of 75%. Three teams still hadn't completed their task, and this was escalated to internal upper management, who dealt with the matter. 
 
 This was the final result:
 

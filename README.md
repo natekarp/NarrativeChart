@@ -1,5 +1,5 @@
 # NarrativeChart
-Design Team homogenity at closing RFIs
+Design team homogenity at closing RFIs
 
 # Background
 

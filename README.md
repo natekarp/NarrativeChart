@@ -11,7 +11,7 @@ I've taken inspiration from Randall Munroe's more iconic xkcd strips, which visu
 
 Exchanging character names, denoted as "chars", with the design teams in my project, and events to their RFI closure progress:
 
-```
+```ruby
 chars = ["Electrical","Structural","Civil","Mechanical","HVAC","Controls","Plumbing",
         "Concrete Pour","Rebar","Generator","Safety","Roads","Trestles","Misc."
 ]

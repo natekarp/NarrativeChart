@@ -48,7 +48,7 @@ In this narrative chart, the quantity doesn't matter, as we want to show the sto
 
 At the end of a period of twelve weeks, ten design teams had successfully closed their RFIs, denoted on the chart by a large full stop on the respective line. A success rate of 75%. Three teams still hadn't completed their task, and this was escalated to internal upper management, who dealt with the matter. 
 
-This was the final result:
+# Final Result
 
 ![image](https://user-images.githubusercontent.com/86113858/129119548-fb3e8e6d-506b-4cca-ab3a-8910891bd383.png)
 

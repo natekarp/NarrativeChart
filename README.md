@@ -42,11 +42,11 @@ events =[
 ]
 ```
 
-In the first line at the very top, all fourteen design teams are together with outstanding RFI tasks of roughly the same number. In this case, the same location on the y-axis entitled "Design Team homogenity at closing RFIs". In the second line, the teams become isolated from one another, as the quantity of their RFIs change from the other teams, ie. the electrical, structural, civil and mechanical teams start from the other teams. In the sixth line, the HVAC team are isolated, and thus die off from the chat, as they've completed the outstanding RFIs. The same logic continues throughout the rest of the events. 
+In the first line at the very top, all fourteen design teams are together with outstanding RFI tasks of roughly the same number. In this case, the same location on the y-axis entitled "Design Team homogenity at closing RFIs". In the second line, the teams become isolated from one another, as the quantity of their RFIs change from the other teams, ie. the electrical, structural, civil and mechanical teams start from the other teams. In the sixth line, the HVAC team are isolated, and thus die off from the chart, as they've completed the outstanding RFIs. The same logic continues throughout the rest of the events. 
 
 In this narrative chart, the quantity doesn't matter, as we want to show the stochastic nature of how the different groups of design teams close the outstanding RFIs. The fourteen lines follow a similar pattern as with the Second Law of Thermodynamics, which says, in simple terms, entropy always increases. In other words, a system becomes more and more random over time, and doesn't get simpler. The same can be applied to Randall Munroe's xkcd strips, and the storyline of the Lord of the Rings. This was to much amusement of my colleagues, many of whom were J. R. R. Tolkien fans. It was an added bonus, to bring much needed cohesion to a much needed project, and avoided the teams from having to look at yet another bland excel template.  
 
-At the end of a period of twelve weeks, ten design teams have successfully closed their RFIs, denoted on the chart by a large full stop on the respective line. Three teams still hadn't completed their task, and this was escalated to internal upper management, who dealt with the matter. 
+At the end of a period of twelve weeks, ten design teams had successfully closed their RFIs, denoted on the chart by a large full stop on the respective line. A 75% success rate. Three teams still hadn't completed their task, and this was escalated to internal upper management, who dealt with the matter. 
 
 This was the final result:
 
